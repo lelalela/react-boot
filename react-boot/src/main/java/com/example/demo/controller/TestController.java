@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("test")
 public class TestController {
-	
+
 	@GetMapping
 	public String testController() {
 		return "Hello World!";
@@ -17,4 +17,7 @@ public class TestController {
 	public String testGetMapping() {
 		return "Hello World! testGetMapping";
 	}
+
+
+
 }
